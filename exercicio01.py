@@ -1,0 +1,9 @@
+nome = str(input("Digite seu primeiro nome: "))
+sobrenome = str(input("Digite o seu sobrenome: "))
+cidade = str(input("Digite a sua cidade: "))
+estado = str(input("Digite o nome do seu estado: "))
+dia = int(input("Digite o dia o seu nascimento: "))
+mes = int(input("Digite o mes o seu nascimento: "))
+ano = int(input("Digite o ano o seu nascimento: "))
+
+print(f"\nNome Completo: {nome} {sobrenome},\nCidade: {cidade},\nEstado: {estado},\nData de nascimento: {dia}/{mes}/{ano}\n")
